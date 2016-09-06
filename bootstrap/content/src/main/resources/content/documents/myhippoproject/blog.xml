@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="blog">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hippostd:folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+    <sv:value>hippotranslation:translated</sv:value>
+    <sv:value>mix:referenceable</sv:value>
+  </sv:property>
+  <sv:property sv:name="jcr:uuid" sv:type="String">
+    <sv:value>b9ff1649-aaab-463b-b80a-5f4785d524f8</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+    <sv:value>new-blog-folder</sv:value>
+    <sv:value>new-blogauthor-folder</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:id" sv:type="String">
+    <sv:value>43834174-e927-4d18-9690-18cfc11fbd83</sv:value>
+  </sv:property>
+  <sv:property sv:name="hippotranslation:locale" sv:type="String">
+    <sv:value>en</sv:value>
+  </sv:property>
+  <sv:node sv:name="authors">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>aa3f5ced-4349-48a6-97c0-487174d8b792</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-blogauthor-document</sv:value>
+      <sv:value>new-blogauthor-folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>2bb93964-7ffb-4c77-a252-cddeb647f1bd</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="Hippo Author">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>5a6e1136-dea0-4927-9130-9ce0a47b0189</sv:value>
+      </sv:property>
+      <sv:node sv:name="Hippo Author">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>myhippoproject:author</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>b54ac94e-74e1-4408-bcfd-d2481ae4cc2c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>blog/authors/Hippo Author</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2014-02-27T16:32:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2014-02-27T16:37:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2014-02-27T16:37:00.000+01:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>32a1d0f1-b48e-49ce-b4b7-cc3366e0209e</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="myhippoproject:fullname" sv:type="String">
+          <sv:value>Hippo Author</sv:value>
+        </sv:property>
+        <sv:property sv:name="myhippoproject:role" sv:type="String">
+          <sv:value>Owner</sv:value>
+        </sv:property>
+        <sv:node sv:name="myhippoproject:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Hippo CMS is a powerful, enterprise-class foundation to deliver outstanding
+          Customer Experiences based on Enterprise Agility and Innovation Power. Hippo CMS
+          is open source, 100% Java and convinces with its lean product architecture that
+          is built for uptime, security and performance.&lt;/p&gt;
+
+          &lt;p&gt; &lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="myhippoproject:accounts">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myhippoproject:account</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:link" sv:type="String">
+            <sv:value>https://github.com/onehippo</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:type" sv:type="String">
+            <sv:value>github</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="myhippoproject:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="myhippoproject:accounts">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myhippoproject:account</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:link" sv:type="String">
+            <sv:value>https://twitter.com/onehippo</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:type" sv:type="String">
+            <sv:value>twitter</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+    <sv:node sv:name="hippo-essentials-author">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippo:handle</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippo:named</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>696a2657-448f-4a5a-89f5-1426d9ba1f7d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:name" sv:type="String">
+        <sv:value>Hippo Essentials Author</sv:value>
+      </sv:property>
+      <sv:node sv:name="hippo-essentials-author">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>myhippoproject:author</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>cab48c90-b7e9-4c56-8ccf-276c39bd889c</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+          <sv:value>live</sv:value>
+          <sv:value>preview</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+          <sv:value>blog/authors/hippo-essentials-author</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:holder" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:state" sv:type="String">
+          <sv:value>published</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+          <sv:value>live</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+          <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+          <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+          <sv:value>admin</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+          <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:id" sv:type="String">
+          <sv:value>d11ca4f3-e6c7-4fe0-b49b-579cad17f8a0</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippotranslation:locale" sv:type="String">
+          <sv:value>en</sv:value>
+        </sv:property>
+        <sv:property sv:name="myhippoproject:fullname" sv:type="String">
+          <sv:value>Hippo Essentials Author</sv:value>
+        </sv:property>
+        <sv:property sv:name="myhippoproject:role" sv:type="String">
+          <sv:value>Owner</sv:value>
+        </sv:property>
+        <sv:node sv:name="myhippoproject:content">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippostd:html</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:content" sv:type="String">
+            <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Hippo CMS is a powerful, enterprise-class foundation to deliver outstanding
+          Customer Experiences based on Enterprise Agility and Innovation Power. Hippo CMS
+          is open source, 100% Java and convinces with its lean product architecture that
+          is built for uptime, security and performance.&lt;/p&gt;
+
+          &lt;p&gt; &lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="myhippoproject:accounts">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myhippoproject:account</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:link" sv:type="String">
+            <sv:value>https://github.com/onehippo</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:type" sv:type="String">
+            <sv:value>github</sv:value>
+          </sv:property>
+        </sv:node>
+        <sv:node sv:name="myhippoproject:image">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>hippogallerypicker:imagelink</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:docbase" sv:type="String">
+            <sv:value>cafebabe-cafe-babe-cafe-babecafebabe</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:facets" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:modes" sv:type="String" sv:multiple="true"/>
+          <sv:property sv:name="hippo:values" sv:type="String" sv:multiple="true"/>
+        </sv:node>
+        <sv:node sv:name="myhippoproject:accounts">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myhippoproject:account</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:link" sv:type="String">
+            <sv:value>https://twitter.com/onehippo</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:type" sv:type="String">
+            <sv:value>twitter</sv:value>
+          </sv:property>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="2016">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippostd:folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>hippotranslation:translated</sv:value>
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>2653591e-cd75-46f6-ab32-e595fef16601</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+      <sv:value>new-blog-document</sv:value>
+      <sv:value>new-blog-folder</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:id" sv:type="String">
+      <sv:value>5fdbc6a5-aa69-4681-8571-8e27fc33bb32</sv:value>
+    </sv:property>
+    <sv:property sv:name="hippotranslation:locale" sv:type="String">
+      <sv:value>en</sv:value>
+    </sv:property>
+    <sv:node sv:name="09">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>hippostd:folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>6e466503-6276-4570-9653-9eec148e418d</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:foldertype" sv:type="String" sv:multiple="true">
+        <sv:value>new-blog-document</sv:value>
+        <sv:value>new-blog-folder</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>c48a134c-a1b8-498b-a800-11b31a7b4e14</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="first-blog-post">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>f5ff82c8-21a4-4a69-87be-5bbeed8cfd53</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>First blog post</sv:value>
+        </sv:property>
+        <sv:node sv:name="first-blog-post">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myhippoproject:blogpost</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>d0e46297-7118-48c2-b028-f991381cfe36</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>blog/2016/09/first-blog-post</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>4b600aaa-3e37-4607-9926-7120c79ae299</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:authornames" sv:type="String" sv:multiple="true">
+            <sv:value>Hippo Author</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:categories" sv:type="String" sv:multiple="true">
+            <sv:value>cms</sv:value>
+            <sv:value>life</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:introduction" sv:type="String">
+            <sv:value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:publicationdate" sv:type="Date">
+            <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:title" sv:type="String">
+            <sv:value>First blog post</sv:value>
+          </sv:property>
+          <sv:node sv:name="myhippoproject:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+          roots in a piece of classical Latin literature from 45 BC, making it over 2000
+          years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+          Virginia, looked up one of the more obscure Latin words, consectetur, from a
+          Lorem Ipsum passage, and going through the cites of the word in classical
+          literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+          1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+          ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+          "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.&lt;/p&gt;
+
+          &lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+          for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+          Malorum" by Cicero are also reproduced in their exact original form, accompanied
+          by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
+
+          &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or
+          randomised words which don't look even slightly believable. If you are going to
+          use a passage of Lorem Ipsum, you need to be sure there isn't anything
+          embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+          Internet tend to repeat predefined chunks as necessary, making this the first
+          true generator on the Internet. It uses a dictionary of over 200 Latin words,
+          combined with a handful of model sentence structures, to generate Lorem Ipsum
+          which looks reasonable. The generated Lorem Ipsum is therefore always free from
+          repetition, injected humour, or non-characteristic words etc.&lt;/p&gt;
+
+          &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or
+          randomised words which don't look even slightly believable. If you are going to
+          use a passage of Lorem Ipsum, you need to be sure there isn't anything
+          embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+          Internet tend to repeat predefined chunks as necessary, making this the first
+          true generator on the Internet. It uses a dictionary of over 200 Latin words,
+          combined with a handful of model sentence structures, to generate Lorem Ipsum
+          which looks reasonable. The generated Lorem Ipsum is therefore always free from
+          repetition, injected humour, or non-characteristic words etc.&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myhippoproject:authors">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>5a6e1136-dea0-4927-9130-9ce0a47b0189</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+      <sv:node sv:name="second-blog-post">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>hippo:handle</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+          <sv:value>hippo:named</sv:value>
+          <sv:value>mix:referenceable</sv:value>
+        </sv:property>
+        <sv:property sv:name="jcr:uuid" sv:type="String">
+          <sv:value>7ffaa48a-a66e-4521-b714-36bc09f50d31</sv:value>
+        </sv:property>
+        <sv:property sv:name="hippo:name" sv:type="String">
+          <sv:value>Second blog post</sv:value>
+        </sv:property>
+        <sv:node sv:name="second-blog-post">
+          <sv:property sv:name="jcr:primaryType" sv:type="Name">
+            <sv:value>myhippoproject:blogpost</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+            <sv:value>mix:referenceable</sv:value>
+          </sv:property>
+          <sv:property sv:name="jcr:uuid" sv:type="String">
+            <sv:value>0e32dd41-3a1b-4e70-a42c-c2805895d510</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+            <sv:value>live</sv:value>
+            <sv:value>preview</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+            <sv:value>blog/2016/09/second-blog-post</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:holder" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:state" sv:type="String">
+            <sv:value>published</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+            <sv:value>live</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+            <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+            <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+            <sv:value>admin</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+            <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:id" sv:type="String">
+            <sv:value>bfb3a033-b48f-4938-ba68-03b64a96d3d0</sv:value>
+          </sv:property>
+          <sv:property sv:name="hippotranslation:locale" sv:type="String">
+            <sv:value>en</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:authornames" sv:type="String" sv:multiple="true">
+            <sv:value>Hippo Essentials Author</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:categories" sv:type="String" sv:multiple="true">
+            <sv:value>cms</sv:value>
+            <sv:value>life</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:introduction" sv:type="String">
+            <sv:value>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:publicationdate" sv:type="Date">
+            <sv:value>2016-09-06T12:02:00.000-04:00</sv:value>
+          </sv:property>
+          <sv:property sv:name="myhippoproject:title" sv:type="String">
+            <sv:value>Second blog post</sv:value>
+          </sv:property>
+          <sv:node sv:name="myhippoproject:content">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippostd:html</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippostd:content" sv:type="String">
+              <sv:value>&lt;html&gt;
+          &lt;body&gt;
+
+          &lt;p&gt;Contrary to popular belief, Lorem Ipsum is not simply random text. It has
+          roots in a piece of classical Latin literature from 45 BC, making it over 2000
+          years old. Richard McClintock, a Latin professor at Hampden-Sydney College in
+          Virginia, looked up one of the more obscure Latin words, consectetur, from a
+          Lorem Ipsum passage, and going through the cites of the word in classical
+          literature, discovered the undoubtable source. Lorem Ipsum comes from sections
+          1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and
+          Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of
+          ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+          "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.&lt;/p&gt;
+
+          &lt;p&gt;The standard chunk of Lorem Ipsum used since the 1500s is reproduced below
+          for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et
+          Malorum" by Cicero are also reproduced in their exact original form, accompanied
+          by English versions from the 1914 translation by H. Rackham.&lt;/p&gt;
+
+          &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or
+          randomised words which don't look even slightly believable. If you are going to
+          use a passage of Lorem Ipsum, you need to be sure there isn't anything
+          embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+          Internet tend to repeat predefined chunks as necessary, making this the first
+          true generator on the Internet. It uses a dictionary of over 200 Latin words,
+          combined with a handful of model sentence structures, to generate Lorem Ipsum
+          which looks reasonable. The generated Lorem Ipsum is therefore always free from
+          repetition, injected humour, or non-characteristic words etc.&lt;/p&gt;
+
+          &lt;p&gt;There are many variations of passages of Lorem Ipsum available, but the
+          majority have suffered alteration in some form, by injected humour, or
+          randomised words which don't look even slightly believable. If you are going to
+          use a passage of Lorem Ipsum, you need to be sure there isn't anything
+          embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the
+          Internet tend to repeat predefined chunks as necessary, making this the first
+          true generator on the Internet. It uses a dictionary of over 200 Latin words,
+          combined with a handful of model sentence structures, to generate Lorem Ipsum
+          which looks reasonable. The generated Lorem Ipsum is therefore always free from
+          repetition, injected humour, or non-characteristic words etc.&lt;/p&gt;
+
+          &lt;/body&gt;
+          &lt;/html&gt;</sv:value>
+            </sv:property>
+          </sv:node>
+          <sv:node sv:name="myhippoproject:authors">
+            <sv:property sv:name="jcr:primaryType" sv:type="Name">
+              <sv:value>hippo:mirror</sv:value>
+            </sv:property>
+            <sv:property sv:name="hippo:docbase" sv:type="String">
+              <sv:value>696a2657-448f-4a5a-89f5-1426d9ba1f7d</sv:value>
+            </sv:property>
+          </sv:node>
+        </sv:node>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="account-types">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>0ebe0263-ba59-460f-8354-ed87030d941b</sv:value>
+    </sv:property>
+    <sv:node sv:name="account-types">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>selection:valuelist</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4e3985be-e729-438f-b9c5-7fe668189b49</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>live</sv:value>
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>85af8ba6-d340-4c02-bd5d-ca80e6e2730e</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>github</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>GitHub</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>stackoverflow</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>Stack Overflow</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>twitter</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>Twitter</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>linkedin</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>LinkedIn</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+  <sv:node sv:name="blog-categories">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hippo:handle</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+      <sv:value>mix:referenceable</sv:value>
+    </sv:property>
+    <sv:property sv:name="jcr:uuid" sv:type="String">
+      <sv:value>cda08dae-23cd-4d62-9ea9-f04bbe31773c</sv:value>
+    </sv:property>
+    <sv:node sv:name="blog-categories">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>selection:valuelist</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>hippotranslation:translated</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>1e36d4bd-88c6-4535-9fcf-98a1bbfe9407</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>30ab063e-d81a-408d-9999-6fb900fca31f</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>cms</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>CMS</sv:value>
+        </sv:property>
+      </sv:node>
+      <sv:node sv:name="selection:listitem">
+        <sv:property sv:name="jcr:primaryType" sv:type="Name">
+          <sv:value>selection:listitem</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:key" sv:type="String">
+          <sv:value>life</sv:value>
+        </sv:property>
+        <sv:property sv:name="selection:label" sv:type="String">
+          <sv:value>Life</sv:value>
+        </sv:property>
+      </sv:node>
+    </sv:node>
+  </sv:node>
+</sv:node>

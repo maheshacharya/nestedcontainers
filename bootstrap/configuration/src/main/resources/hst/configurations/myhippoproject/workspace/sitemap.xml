@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><sv:node xmlns:sv="http://www.jcp.org/jcr/sv/1.0" sv:name="hst:sitemap">
+  <sv:property sv:name="jcr:primaryType" sv:type="Name">
+    <sv:value>hst:sitemap</sv:value>
+  </sv:property>
+  <sv:node sv:name="marketing-campaign">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/marketing-campaign-landing-page</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lastmodified" sv:type="Date">
+      <sv:value>2016-09-06T12:09:38.793-04:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:pagetitle" sv:type="String">
+      <sv:value>Marketing Campaign</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="test">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/test-landing-page</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lastmodified" sv:type="Date">
+      <sv:value>2016-09-06T13:02:42.490-04:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:pagetitle" sv:type="String">
+      <sv:value>test</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="test1">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/test1-landing-page</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lastmodified" sv:type="Date">
+      <sv:value>2016-09-06T13:08:23.046-04:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:pagetitle" sv:type="String">
+      <sv:value>test1</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="my-landing-page">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/my-landing-page-landing-page</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lastmodified" sv:type="Date">
+      <sv:value>2016-09-06T15:11:35.999-04:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:pagetitle" sv:type="String">
+      <sv:value>My Landing Page</sv:value>
+    </sv:property>
+  </sv:node>
+  <sv:node sv:name="new-landing-page">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/new-landing-page-landing-page</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:lastmodified" sv:type="Date">
+      <sv:value>2016-09-06T15:14:47.721-04:00</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:pagetitle" sv:type="String">
+      <sv:value>New Landing Page</sv:value>
+    </sv:property>
+  </sv:node>
+</sv:node>
