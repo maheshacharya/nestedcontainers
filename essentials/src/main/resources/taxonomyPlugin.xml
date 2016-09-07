@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <installerDocument>
     <name>taxonomyPlugin</name>
+    <dateAdded>2016-09-06T19:29:50.175-04:00</dateAdded>
     <dateInstalled>2016-09-06T12:39:13.134-04:00</dateInstalled>
-    <installationState>boarding</installationState>
+    <installationState>installed</installationState>
 </installerDocument>

@@ -238,4 +238,18 @@
       <sv:value>search</sv:value>
     </sv:property>
   </sv:node>
+  <sv:node sv:name="robots.txt">
+    <sv:property sv:name="jcr:primaryType" sv:type="Name">
+      <sv:value>hst:sitemapitem</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:componentconfigurationid" sv:type="String">
+      <sv:value>hst:pages/robotstxt</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:hiddeninchannelmanager" sv:type="Boolean">
+      <sv:value>true</sv:value>
+    </sv:property>
+    <sv:property sv:name="hst:relativecontentpath" sv:type="String">
+      <sv:value>../administration/robots</sv:value>
+    </sv:property>
+  </sv:node>
 </sv:node>

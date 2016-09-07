@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <installerDocument>
     <name>robotsPlugin</name>
+    <dateAdded>2016-09-06T19:29:52.032-04:00</dateAdded>
     <dateInstalled>2016-09-06T12:39:05.315-04:00</dateInstalled>
-    <installationState>boarding</installationState>
+    <installationState>installed</installationState>
 </installerDocument>
