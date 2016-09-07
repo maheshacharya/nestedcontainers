@@ -15,9 +15,14 @@
     <div class="row">
         <div class="col-md-6 col-md-offset-3">
         <@hst.include ref="top"/>
-        <@hst.include ref="menu"/>
+
         </div>
     </div>
+  <div class="row">
+
+        <@hst.include ref="menu"/>
+
+  </div>
     <div class="row">
         <@hst.include ref="main"/>
     </div>

@@ -2,6 +2,7 @@
 
 <#-- @ftlvariable name="menu" type="org.hippoecm.hst.core.sitemenu.HstSiteMenu" -->
 <#-- @ftlvariable name="editMode" type="java.lang.Boolean"-->
+<div style="background-color:#000;">
 <#if menu??>
   <#if menu.siteMenuItems??>
     <ul class="nav nav-pills">
@@ -21,3 +22,4 @@
     <sub>Click to edit Menu</sub>
   </#if>
 </#if>
+</div>
