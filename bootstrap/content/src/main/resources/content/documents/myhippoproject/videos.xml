@@ -45,10 +45,9 @@
       </sv:property>
       <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
         <sv:value>live</sv:value>
-        <sv:value>preview</sv:value>
       </sv:property>
       <sv:property sv:name="hippo:related___pathreference" sv:type="String">
-        <sv:value>videos/video-example</sv:value>
+        <sv:value>videos/video-example/video-example[2]</sv:value>
       </sv:property>
       <sv:property sv:name="hippostd:holder" sv:type="String">
         <sv:value>admin</sv:value>
@@ -66,7 +65,61 @@
         <sv:value>2014-06-10T14:30:23.582+02:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
-        <sv:value>2014-06-10T14:58:14.034+02:00</sv:value>
+        <sv:value>2016-09-06T20:24:40.296-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:publicationDate" sv:type="Date">
+        <sv:value>2016-09-06T20:24:42.086-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>4455e12a-8201-4cd3-9fa2-4a39e70588d0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:description" sv:type="String">
+        <sv:value>Learn how to use Map Based Geo Targeting User Interface</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:link" sv:type="String">
+        <sv:value>//www.youtube.com/embed/s0U18UQwIjs</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>Video example</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="video-example">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:video</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:versionable</sv:value>
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>f021aeff-5b61-4eca-99c1-b168dde83e98</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true">
+        <sv:value>preview</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>videos/video-example/video-example</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>unpublished</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-06-10T14:30:23.582+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-09-06T20:24:40.296-04:00</sv:value>
       </sv:property>
       <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
         <sv:value>admin</sv:value>
@@ -78,10 +131,59 @@
         <sv:value>en</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:description" sv:type="String">
-        <sv:value>Sky News report on a South African family who have a hippo living in their house as a pet</sv:value>
+        <sv:value>Learn how to use Map Based Geo Targeting User Interface</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:link" sv:type="String">
-        <sv:value>//www.youtube.com/embed/KWgB1hyOHWc</sv:value>
+        <sv:value>//www.youtube.com/embed/s0U18UQwIjs</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:title" sv:type="String">
+        <sv:value>Video example</sv:value>
+      </sv:property>
+    </sv:node>
+    <sv:node sv:name="video-example">
+      <sv:property sv:name="jcr:primaryType" sv:type="Name">
+        <sv:value>myhippoproject:video</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:mixinTypes" sv:type="Name" sv:multiple="true">
+        <sv:value>mix:referenceable</sv:value>
+      </sv:property>
+      <sv:property sv:name="jcr:uuid" sv:type="String">
+        <sv:value>4860b53e-0002-4d5f-9bc6-3c9496cf3401</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippo:availability" sv:type="String" sv:multiple="true"/>
+      <sv:property sv:name="hippo:related___pathreference" sv:type="String">
+        <sv:value>videos/video-example/video-example</sv:value>
+        <sv:value>videos/video-example/video-example[2]</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:state" sv:type="String">
+        <sv:value>draft</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostd:stateSummary" sv:type="String">
+        <sv:value>live</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:createdBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:creationDate" sv:type="Date">
+        <sv:value>2014-06-10T14:30:23.582+02:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModificationDate" sv:type="Date">
+        <sv:value>2016-09-06T20:24:08.637-04:00</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippostdpubwf:lastModifiedBy" sv:type="String">
+        <sv:value>admin</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:id" sv:type="String">
+        <sv:value>4455e12a-8201-4cd3-9fa2-4a39e70588d0</sv:value>
+      </sv:property>
+      <sv:property sv:name="hippotranslation:locale" sv:type="String">
+        <sv:value>en</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:description" sv:type="String">
+        <sv:value>Learn how to use Map Based Geo Targeting User Interface</sv:value>
+      </sv:property>
+      <sv:property sv:name="myhippoproject:link" sv:type="String">
+        <sv:value>//www.youtube.com/embed/s0U18UQwIjs</sv:value>
       </sv:property>
       <sv:property sv:name="myhippoproject:title" sv:type="String">
         <sv:value>Video example</sv:value>

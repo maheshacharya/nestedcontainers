@@ -15,7 +15,12 @@
   }
   .three-cols-ul li{
     min-width:33%;
-    margin:10px;
+max-width:33%;
+
+
+  }
+  .three-cols-ul li img{
+    max-width:100%;
   }
 </style>
 

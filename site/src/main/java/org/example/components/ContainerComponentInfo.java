@@ -13,7 +13,7 @@ import org.hippoecm.hst.core.parameters.Parameter;
                 value = {"title",
                         "padding",
                         "backgroundColor",
-                        
+
                 }
         )
 

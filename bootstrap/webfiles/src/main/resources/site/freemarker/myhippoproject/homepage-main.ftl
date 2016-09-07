@@ -2,9 +2,12 @@
 
 <@hst.setBundle basename="essentials.homepage"/>
 
+
+
+
 <style>
- .rowx div{
-    border:1px solid #cccccc;
+  img{
+    max-width: 100%;
   }
 
 </style>
